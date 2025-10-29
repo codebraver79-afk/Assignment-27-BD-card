@@ -1,0 +1,66 @@
+#outside{
+    z-index: 1;
+    background-color: #FFD5D5;
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-origin:0;
+    text-align: center;
+    transition: 2s;
+}
+
+#inside{
+    z-index: 0;
+    background-color: #FDAAAA;
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-origin:0;
+    text-align: center;
+}
+
+.open_card{
+    transform:rotateY(90deg)
+}
+
+
+.img2{
+    width:50%;
+    height:60%;
+    position:absolute;
+    top:100px;
+    right:380px;
+
+}
+.img1{
+    width:95%;
+    height:60%
+}
+.character{
+    width:140px;
+    height:220px;
+    position:absolute;
+    left:685px;
+    top:300px;
+
+}
+.character2{
+    width:180px;
+    height:260px;
+    position:absolute;
+    top:200px;
+    right:670px
+}
+.imgx{
+    width:1700px;
+    height:500px;
+    position:absolute;
+    top:0px;
+    left: 0px;
+
+}
+p{
+    position:absolute;
+    bottom:0px;
+    left:700px
+}
